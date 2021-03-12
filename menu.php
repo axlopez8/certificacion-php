@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+	<title>Login Tersa</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="UTF-8">
+
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+
+<body>
+    
+	<div class="limiter">
+		<div class="container-login100">
+			
+
+			<div class="wrap-login100">
+							
+                            <center><h1>Menu Tersa</h1><img src="images/Tersa.jpg" width="150" height="150" HSPACE="10" VSPACE="10" ></center>
+							
+                            <br>
+                            <br>
+				<div class="login100-pic js-tilt" data-tilt>
+					<img href="productos/productos.php" src="images/producto.png" width="150" height="150" HSPACE="10" VSPACE="10" >
+                    <center> <a href="productos/productos.php"><button class="btn blue">Registro de Producto</button></a> </center>
+				</div>
+
+
+                <div class="login100-pic js-tilt" data-tilt>
+					<img href="proveedores/proveedores.php" src="images/proveedores.jpg" width="150" height="150" HSPACE="10" VSPACE="10">
+                    <center> <a href="proveedores/proveedores.php"><button class="btn blue">Registro de Proveedores</button></a> </center>
+				</div>
+
+
+                <div class="login100-pic js-tilt" data-tilt>
+					<img href="clientes/clientes.php" src="images/clientes.png" width="150" height="150" HSPACE="10" VSPACE="10">
+                    <center> <a href="clientes/clientes.php"><button class="btn blue">Registro de Clientes</button></a> </center>
+				</div>
+				<div class="login100-pic js-tilt" data-tilt>
+					<img href="compras/compras.php" src="images/compras.png" width="150" height="150" HSPACE="10" VSPACE="10" >
+                    <center> <a href="compras/compras.php"><button class="btn blue">Registro de Compras</button></a> </center>
+				</div>
+
+
+                <div class="login100-pic js-tilt" data-tilt>
+					<img href="personas/personas.php" src="images/personas.png" width="150" height="150" HSPACE="10" VSPACE="10">
+                    <center> <a href="personas/personas.php"><button class="btn blue">Registro de Personas</button></a> </center>
+				</div>
+
+
+                <div class="login100-pic js-tilt" data-tilt>
+					<img href="ventas/ventas.php" src="images/ventas.png" width="150" height="150" HSPACE="10" VSPACE="10">
+                    <center> <a href="ventas/ventas.php"><button class="btn blue">Registro de Ventas</button></a> </center>
+				</div>
+		</div>
+
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
